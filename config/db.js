@@ -10,4 +10,6 @@ const connectDB = async () => {
   }
 };
 
+// this is mongoose connection file, we will use it to connect to our MongoDB database. We will call this function in our server.js file to establish the connection before starting the server.
+
 module.exports = connectDB;ww
